@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>订单转移</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/calendar.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<article>
+  <div class="tool_bar">
+    <div class="l_btn" data-icon="&#xe679;"></div>
+    <h2 class="page_title">我的下家</h2>
+    <a class="r_btn" >新建</a>
+  </div>
+
+  <div class="select_ulist_module">
+    <h4 class="module_title">共2个下家</h4>
+    <ul class="select_ulist">  	
+  	    <li class="select_ulist_item unfollow">校长 <span style="color:#00b90c;font-size: 1rem;margin-left:20px"> 0个下家 </span></li>
+    	<li class="select_ulist_item open">小王 <span style="color:#00b90c;font-size: 1rem;margin-left:20px"> 1个下家 </span></li>   
+    </ul>
+  </div>
+
+</article>
+
+<script src="js/zepto.min.js"></script>
+<script>
+	$('.open').on('click',function(){
+		if($(this).hasClass('open_opened')){
+			//如果已展开
+			$(this).removeClass('open_opened');
+			$(this).find(".add_list").remove();
+		}
+		else{
+			//如果没有展开
+			$(this).addClass('open_opened');
+			$(this).append("<ul class='add_list'><li class='add_list_item'>小李</li></ul>");
+
+		}
+	})
+	
+</script>
+
+</body>
+</html>

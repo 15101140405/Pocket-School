@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>婚礼－新人姓名</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<article>
+	<div class="tool_bar">
+  	  <div class="l_btn" data-icon="&#xe679;"></div>
+  	  <h2 class="page_title">提现</h2>
+  	</div>
+  	<div class="cash_instruction">
+  		<div class="cash_instruction_title">提现到微信</div>
+  		<div class="cash_instruction_content">
+  		<div class="cash_instruction_content_name">瘦皮猴的逆袭</div>
+  		<div class="cash_instruction_content_mark">2~5个工作日到账</div>
+  		<div class="clear"></div>
+  		</div>
+  	</div>
+	<div class="cash_input">
+      	<div class="prop">金额</div>
+      	<div class="int_bar">
+      		<input type="text" placeholder="当前余额10000.00元"/>
+      	</div>
+	</div>
+	<div class="cash_bottom">
+		<a class="cash_bottom_btn" href="#">提现</a>
+	</div>
