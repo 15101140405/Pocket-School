@@ -2,13 +2,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>婚礼－跟进纪录</title>
+<title>我的返利</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="format-detection" content="telephone=no">
 <link href="css/base.css" rel="stylesheet" type="text/css" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.1.10.2.min.js" type="text/javascript"></script>
+<script src="js/index.js" type="text/javascript"></script>
 
 <style>
 .container_big_green{
@@ -45,25 +47,25 @@
     <div class="tool_bar">
     	<div class="l_btn" data-icon="&#xe679;"></div>
     	<h2 class="page_title">我的返利</h2>
-    	<div class="profile_img"><img src="images/1.jpeg"></div>
-    	<p class="profile_name">小斯</p>
+    	<div class="profile_img"><img src=""></div>
+    	<p class="profile_name"></p>
     </div>
 <!-- banner   end --> 
 	<div class="back">   
 	    <div class="container">
 		    <div class="profile_money_small" >
 	    		<p>昨日收益</p>
-	    		<p>0.00</p>
+	    		<p id="y_income"></p>
 	    	</div>	
 	    	<div class="profile_money_small" >
-	    		<p>昨日收益</p>
-	    		<p>0.00</p>
+	    		<p>总收益</p>
+	    		<p id="t_income">0.00</p>
 	    	</div>	
 	    </div>
 	        <div class="container">
 		    <div class="profile_money_small" >
 	    		<p>余额</p>
-	    		<p>0.00</p>
+	    		<p id="balance">0.00</p>
 	    	</div>	
 	    	<div class="profile_money_small" >
 	    		<a class="singup" href="#">账单</a>
